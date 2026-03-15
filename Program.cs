@@ -31,9 +31,8 @@ namespace DamerauLevenshteinDistance
             }
         }
 
-        /// <summary>
+        
         /// Вычисление расстояния Дамерау-Левенштейна
-        /// </summary>
         public static int DamerauLevenshtein(string str1Param, string str2Param)
         {
             if ((str1Param == null) || (str2Param == null))
